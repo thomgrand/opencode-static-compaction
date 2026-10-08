@@ -1,0 +1,15 @@
+{
+  "name": "opencode-static-compaction",
+  "version": "0.1.0",
+  "description": "Compact OpenCode sessions at a static token threshold across models",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["opencode", "opencode-plugin", "compaction"],
+  "main": "./index.ts",
+  "exports": { ".": "./index.ts" },
+  "files": ["index.ts", "tokens.js", "README.md"],
+  "scripts": {
+    "check": "node test/check.mjs"
+  },
+  "devDependencies": { "@opencode/plugin": "2.0.24" }
+}
